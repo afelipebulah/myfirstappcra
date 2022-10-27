@@ -9,7 +9,7 @@ function calcularAnchoyAltoImagen(anchoImagen, altoImagen) {
 	if (altoImagen >= altoImagenA4) {
 		altoImagen = altoImagenA4;
 	}
-    
+    console.log("Linea agregada por Carolina");
 	return [anchoImagen, altoImagen];
 }
 
