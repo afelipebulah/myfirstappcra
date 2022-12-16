@@ -9,7 +9,6 @@ function calcularAnchoyAltoImagen(anchoImagen, altoImagen) {
 	if (altoImagen >= altoImagenA4) {
 		altoImagen = altoImagenA4;
 	}
-    
 	return [anchoImagen, altoImagen];
 }
 

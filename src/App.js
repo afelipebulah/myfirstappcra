@@ -8,7 +8,6 @@ function App() {
 
   useEffect(() => {
     const handleClick = (event) => {
-      //console.log(event);
       console.log("Button clicked");
       run(new Date);
     };
